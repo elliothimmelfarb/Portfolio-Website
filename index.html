@@ -20,11 +20,31 @@
 </head>
 
 <body>
-    <div class="container-fluid site">
-        <div class="container-fluid page welcome"></div>
-        <div class="container-fluid page about-me"></div>
-        <div class="container-fluid page portfolio"></div>
-        <div class="container-fluid page contact"></div>
+    <div class="container-fluid website">
+        <div class="container-fluid navbar navbar-top navbar-fixed-top">
+            <ul class="nav nav-pills nav-justified">
+                <li>
+                    <a href="#about-me">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar navbar-bottom navbar-fixed-bottom">
+            <div class="container-fluid line"></div>
+            Contact:
+        </div>
+
+        <div id="welcome" class="scroll-page">
+            <p id="name-title">Elliot Himmelfarb</p>
+        </div>
+        <div id="about-me" class="scroll-page"></div>
+        <div id="portfolio" class="scroll-page"></div>
+        <div id="contact" class="scroll-page"></div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
