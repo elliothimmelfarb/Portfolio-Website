@@ -1,2 +1,5 @@
-var test = "this is a thing";
-console.log(test);
+$(document).ready(init());
+
+function init() {
+    console.log("working");
+}
